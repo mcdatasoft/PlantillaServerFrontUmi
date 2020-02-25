@@ -21,6 +21,8 @@
     "prod": "tsc && node ./build/fuentes/crud.js",
     "server": "node server.js",
     "parcel": "parcel build jsx/main.js -d public/js",
+    "m1parcel": "parcel build jsx/modulo1/main.js -d public/modulo1",
+    "m2parcel": "parcel build jsx/modulo2/main.js -d public/modulo2",
     "iniciar": "npx ts-node ./fuentes/crud.ts"
   },
   "devDependencies": {
